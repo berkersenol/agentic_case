@@ -23,8 +23,6 @@
   - [5.2 Creating and Using Tools - Tool Use Pattern](#creating-and-using-tools---tool-use-pattern)
   - [5.3 Reasoning with a ReAct Agent - Planning Pattern](#reasoning-with-a-react-agent---planning-pattern)
   - [5.4 Defining and running a Crew of Agents - MultiAgent Pattern](#defining-and-running-a-crew-of-agents---multiagent-pattern)
-- [6. Recommended Workflow](#recommended-workflow)
-- [7. Star History](#star-history)
 
 
 ## Introduction
@@ -371,7 +369,3 @@ To run the Crew, simply run:
 ```python
 crew.run()
 ```
-
-## Recommended Workflow
-
-This is **an educational project** and not an agentic framework.
