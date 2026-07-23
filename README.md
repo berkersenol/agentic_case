@@ -34,7 +34,7 @@ Here’s a description of the four patterns we will be implementing.
 
 ## The 4 Agentic patterns
 
-### Reflection Pattern 🤔
+### Reflection Pattern 
 
 <p align="center">
     <img alt="logo" src="img/reflection_pattern.png" width=500 />
@@ -46,7 +46,7 @@ surprising performance gains for the LLM response.
 It allows the LLM to **reflect on its results**, suggesting
 modifications, additions, improvements in the writing style, etc.
 
-Want to see how this pattern is implemented? 💻
+Want to see how this pattern is implemented? 
 
 - Check the [notebook](notebooks/reflection_pattern.ipynb) for a step by step explanation
 - Check the [`ReflectionAgent`](src/agentic_patterns/reflection_pattern/reflection_agent.py) for a complete Python implementation
@@ -54,7 +54,7 @@ Want to see how this pattern is implemented? 💻
 
 ---
 
-### Tool Pattern  🛠
+### Tool Pattern  
 
 <p align="center">
     <img alt="logo" src="img/tool_pattern.png" width=600 />
@@ -62,13 +62,13 @@ Want to see how this pattern is implemented? 💻
 
 The information stored in the LLM weights is (usually) **not enough** to give accurate and insightful answers to our questions
 
-That's why we need to provide the LLM with ways to access the outside world 🌍
+That's why we need to provide the LLM with ways to access the outside world 
 
 In practice, you can build tools for whatever you want (at the end of the day they are just functions the LLM can use), from a tool that let's you access Wikipedia, another to analyse the content of YouTube videos or calculate difficult integrals in Wolfram Alpha.
 
-**Tools** are the **secret sauce of agentic applications** and the possibilities are endless! 🥫
+**Tools** are the **secret sauce of agentic applications** and the possibilities are endless! 
 
-Want to see how this pattern is implemented? 💻
+Want to see how this pattern is implemented? 
 
 - Check the [notebook](notebooks/tool_pattern.ipynb) for a step by step explanation
 - Check the [`ToolAgent`](src/agentic_patterns/tool_pattern/tool_agent.py) for a complete Python implementation
@@ -76,7 +76,7 @@ Want to see how this pattern is implemented? 💻
 
 ---
 
-### Planning Pattern 🧠
+### Planning Pattern 
 
 <p align="center">
     <img alt="logo" src="img/planning_pattern.png" width=500 />
@@ -89,16 +89,14 @@ That is exactly what the Planning Pattern provides; ways for the LLM to break a 
 
 The most paradigmatic example of the planning pattern is the **ReAct** technique, displayed in the diagram above.
 
-Want to see how this pattern is implemented? 💻
+Want to see how this pattern is implemented? 
 
 - Check the [notebook](notebooks/planning_pattern.ipynb) for a step by step explanation
 - Check the [`ReactAgent`](src/agentic_patterns/planning_pattern/react_agent.py) for a complete Python implementation
 
-Take a look at the YouTube video! 👇
-
 ---
 
-### Multiagent Pattern 🧑🏽‍🤝‍🧑🏻
+### Multiagent Pattern 
 
 <p align="center">
     <img alt="logo" src="img/multiagent_pattern.png" width=500 />
@@ -108,7 +106,7 @@ You may have heard about frameworks like crewAI or AutoGen, which allow you to c
 
 These frameworks implement different variations of the multi-agent pattern, in which tasks are divided into **smaller subtasks executed by different roles** (e.g. one agent can be a software engineer, another a project manager, etc.)
 
-Want to see how this pattern is implemented? 💻
+Want to see how this pattern is implemented? 
 
 - Check the [notebook](notebooks/multiagent_pattern.ipynb) for a step by step explanation
 - Check the [`Agent`](src/agentic_patterns/multiagent_pattern/agent.py) to see how to implement
